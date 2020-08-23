@@ -2,7 +2,7 @@ Insta Baka Mitai
 ===
 
 [![DAME DA NE](sample.gif)](https://github.com/framp/insta-baka-mitai/raw/master/sample.mp4)
-* includes audio
+ *includes audio
 
 Create your own Baka Mitai deepfake on your computer with one (kinda) command!
 
