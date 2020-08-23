@@ -14,11 +14,5 @@ docker run -m 4g -i --rm baka-mitai-cpu < ~/Downloads/me.png > result.mp4
 This will work on any computer and it will use your CPU - so if you have a Nvidia GPU you may want to look elsewhere to generate results faster.
 I'm open to contributions with the necessary changes to support CUDA.
 
-## Build
-
-```
-docker build . -t baka-mitai-cpu -f baka-mitai-cpu.Dockerfile
-```
-
 ## Original repo & paper
 Go and checkout the original [repo](https://github.com/AliaksandrSiarohin/first-order-model) and paper [First Order Motion Model for Image Animation](https://papers.nips.cc/paper/8935-first-order-motion-model-for-image-animation) by [Aliaksandr Siarohin](https://github.com/AliaksandrSiarohin), [Stéphane Lathuilière](http://stelat.eu), [Sergey Tulyakov](http://stulyakov.com), [Elisa Ricci](http://elisaricci.eu/) and [Nicu Sebe](http://disi.unitn.it/~sebe/).
